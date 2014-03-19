@@ -1,0 +1,93 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+	background-image: url(../images/bg.jpg);
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+img.ueshiba{
+	width:20%;
+    height: auto;
+    overflow:hidden;
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+img.header{
+	width:100%;
+    height: auto;
+    overflow:hidden;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+img#bowl{
+	width:100%;
+    height: auto;
+    overflow:hidden;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+table td, table th, table td * {
+    vertical-align: top;
+}
+
+.imageClip{
+    width:100%;
+    height: auto;
+    overflow:hidden;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.sliderIMG{
+	width:100%;	
+}
+
+.ui-content > ul > li{
+	text-decoration: none;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
